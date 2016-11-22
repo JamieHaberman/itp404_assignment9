@@ -8,18 +8,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     {{content-for "head"}}
-
+      
+      
     <link rel="stylesheet" href="{{rootURL}}assets/vendor.css">
     <link rel="stylesheet" href="{{rootURL}}assets/itp404-final-project-ember.css">
-
+      <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.1/dist/leaflet.css" />
     {{content-for "head-footer"}}
   </head>
   <body>
     {{content-for "body"}}
-
-    <script src="{{rootURL}}assets/vendor.js"></script>
+ {{content-for "body-footer"}}
+    
+      <div id="mapid"></div>
+      
+      
+      <script src="{{rootURL}}assets/vendor.js"></script>
     <script src="{{rootURL}}assets/itp404-final-project-ember.js"></script>
-
-    {{content-for "body-footer"}}
+      
+      <script src="https://unpkg.com/leaflet@1.0.1/dist/leaflet.js"></script>
+   
   </body>
 </html>
