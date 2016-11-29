@@ -1,1 +1,0 @@
-/Users/kid.ocean/Downloads/itp404-final-project-ember-master/tmp/funnel-input_base_path-PFGK8hiI.tmp/0/controllers/mapcontrol.js
